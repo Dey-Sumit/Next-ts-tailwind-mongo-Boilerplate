@@ -4,7 +4,10 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/components/*"]
+      "@components/*": ["src/components/*"],
+      "@libs/*": ["libs/*"],
+      "@models/*": ["models/*"],
+      "@middlewares/*": ["middlewares/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
